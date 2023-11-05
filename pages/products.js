@@ -36,7 +36,7 @@ export default function Products({ darkMode }) {
           <h1>{t("products")}</h1>
           <div className="mt-8">
             <ProductInfo
-              image="/persona/persona-icon.png"
+              image="/products/persona-icon.png"
               imageAlt="Persona - Seeking Soulmate"
               title="Persona - Seeking Soulmate"
               subtitle="Persona is the mysterious world of undiscovered human nature. It is a doorway that opens to the inner world of oneself. In here you can find people who want to get to know themselves better, meet other opinions, and search for their best match! Persona is a role-playing game that helps you discover your real personality, create your ideal persona, express your feelings, needs, and wishes, and learn what others think about you."
@@ -45,7 +45,7 @@ export default function Products({ darkMode }) {
           </div>
           <div className="mt-8">
             <ProductInfo
-              image="/vingo/vingo-icon.png"
+              image="/products/vingo-icon.png"
               imageAlt="Vingo"
               title="Vingo"
               subtitle="A versatile and powerful study helper application designed to elevate your learning experience. This dynamic application combines features such as spaced repetition, Markdown note-taking, and voice recording, making it an indispensable companion for students and knowledge seekers alike. Seamlessly switch between English, German, and Persian with our embedded dictionary feature, and take control of your study materials with our innovative graph-based tags management system. Enhance your understanding and retention by adding audio, video, and images to your study cards, and let our auto card generation feature create flashcards from context effortlessly. With our study helper application, knowledge acquisition has never been more effective."
@@ -54,7 +54,7 @@ export default function Products({ darkMode }) {
           </div>
           <div className="mt-8">
             <ProductInfo
-              image="/robustqa/robustqa-icon.jpeg"
+              image="/products/robustqa-icon.jpeg"
               imageAlt="RobustQA"
               title="RobustQA"
               subtitle="A Framework for Adversarial Text Generation Analysis on Question Answering Systems"

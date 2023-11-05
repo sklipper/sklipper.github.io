@@ -1,6 +1,6 @@
 # sklipper.github.io
 
-![version](https://img.shields.io/badge/version-0.1.3-teal.svg)
+![version](https://img.shields.io/badge/version-0.1.4-teal.svg)
 ![license](https://img.shields.io/badge/license-MIT-blue.svg)
 
 - [https://sklipper.com](https://sklipper.com)
