@@ -9,7 +9,8 @@
     "build": "next build",
     "postbuild": "next-sitemap --config sitemap.config.js",
     "export": "rm -rf dist && next export -o dist/",
-    "deploy": "rm -rf node_modules/.cache && next build && rm -rf dist && next export -o dist/ && touch dist/.nojekyll && echo \"sklipper.com\" > dist/CNAME"
+    "deploy_with_cname": "rm -rf node_modules/.cache && next build && rm -rf dist && next export -o dist/ && touch dist/.nojekyll && echo \"sklipper.com\" > dist/CNAME",
+    "deploy": "rm -rf node_modules/.cache && next build && rm -rf dist && next export -o dist/ && touch dist/.nojekyll"
   },
   "dependencies": {
     "@fontsource/merriweather": "^4.5.1",
