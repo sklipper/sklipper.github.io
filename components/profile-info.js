@@ -5,7 +5,7 @@ export default function ProfileInfo({ member, avatar }) {
   return (
     <div className="flex flex-col">
       {!avatar && (
-        <div className="flex flex-row items-center lg:items-start">
+        <div className="flex flex-row items-start">
           <a className="relative flex-shrink-0 w-24 h-24 rounded-lg overflow-hidden border border-gray-200 dark:border-gray-700 mb-4">
             <ImageX
               src={member.image}
@@ -14,21 +14,21 @@ export default function ProfileInfo({ member, avatar }) {
               objectFit="cover"
             />
           </a>
-          <div className="flex flex-col lg:ml-4 lg:mr-4">
-            <h2 className="text-center lg:text-left pb-2">
+          <div className="flex flex-col ml-4 mr-4">
+            <h2 className="pb-2">
               <span className="font-bold text-2xl">{member.fullname}</span>
             </h2>
-            <h4 className="text-center lg:text-left pb-2">
+            <h4 className="pb-2">
               <span className="text-gray-500 dark:text-gray-400">
                 {member.title}
               </span>
             </h4>
-            <h4 className="text-center lg:text-left pb-4">
+            <h4 className="pb-4">
               <span className="text-gray-500 dark:text-gray-400">
                 {member.location}
               </span>
             </h4>
-            <div className="flex flex-row justify-center lg:justify-start items-center text-sm space-x-4 text-gray-500">
+            <div className="flex flex-row justify-start items-center text-sm space-x-4 text-gray-500">
               {member.twitter && (
                 <Social type="twitter" link={member.twitter} />
               )}
