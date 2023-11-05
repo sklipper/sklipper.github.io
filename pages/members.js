@@ -35,10 +35,10 @@ export default function Members({ darkMode }) {
         <div className="flex flex-col flex-grow">
           <h1 className="mb-8">{t("members")}</h1>
           <div className="mb-8">
-            <ProfileInfo member={data.mahjoob} avatar={false} />
+            <ProfileInfo member={data.mirbostani} avatar={false} />
           </div>
           <div className="mb-8">
-            <ProfileInfo member={data.mirbostani} avatar={false} />
+            <ProfileInfo member={data.mahjoob} avatar={false} />
           </div>
           <div className="mb-8">
             <ProfileInfo member={data.nouri} avatar={false} />
